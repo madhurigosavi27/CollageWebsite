@@ -1,4 +1,3 @@
-// Smooth Scroll for Navigation
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', function (e) {
         if (this.hash !== '') {
